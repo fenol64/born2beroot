@@ -52,4 +52,10 @@ after put your disk password you should see the login screen
 
     after we continue run the command `lsblk` to see the partitions and compare with the subject to see if you did it right
 
+### Mandatory part
 
+[go to mandatory](./mandatory.md)
+
+### Bonus part
+
+[go to bonus](./bonus.md)
