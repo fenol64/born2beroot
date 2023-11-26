@@ -49,6 +49,8 @@ O LVM é um sistema de gerenciamento de volumes lógicos que permite que você c
 
     # change hostname of the machine
     hostnamectl set-hostname newhostname
+    # see my Ip
+    hostname -I
 
     # check partitions
     lsblk
@@ -62,8 +64,6 @@ O LVM é um sistema de gerenciamento de volumes lógicos que permite que você c
     #check ssh port
     netstat -tulpn | grep ssh
 
-    # see my Ip
-    hostname -I
 
     #see my cron jobs
     crontab -l
