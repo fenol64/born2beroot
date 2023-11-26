@@ -59,3 +59,7 @@ after put your disk password you should see the login screen
 ### Bonus part
 
 [go to bonus](./guide_bonus.md)
+
+### SIGNATURE (mandatory)
+
+go to the path yout VM is installed and run the command `sha1sum <VM_file_name>.vdi` and copy the hash
