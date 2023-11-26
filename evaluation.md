@@ -15,3 +15,57 @@ O propósito das máquinas virtuais é permitir que um computador execute vário
 **qual a diferença entre apt e APPArmor?**
 
 O apt é um gerenciador de pacotes usado para instalar e atualizar software no Debian. O AppArmor é um sistema de segurança que restringe o acesso de um programa a determinados arquivos, diretórios e funcionalidades do computador como o acesso a internet por exemplo.
+
+**Como o LVM funciona?**
+
+O LVM é um sistema de gerenciamento de volumes lógicos que permite que você crie partições lógicas em um disco rígido. Ele permite que você crie partições lógicas maiores do que o tamanho físico do disco rígido. Ele também permite que você crie partições lógicas em vários discos rígidos.
+
+```bash
+    # check if ufw service is running
+    service ufw status
+    # check if ssh is running
+    service ssh status
+    # check the current system is installed
+    uname -a
+    # check the current system is installed
+    cat /etc/os-release
+
+    # check groups of a user
+    groups username
+    # create a user
+    adduser username
+
+    vim /etc/login.defs
+    vim /etc/security/pwquality.conf
+
+    # create a group
+    addgroup groupname
+
+    # add user to group
+    usermod -aG groupname username
+
+    # check user password policy
+    chage -l username
+
+    # change hostname of the machine
+    hostnamectl set-hostname newhostname
+
+    # check partitions
+    lsblk
+
+    # check ufw status
+    ufw status
+
+    # allow port
+    ufw allow portnumber
+
+    #check ssh port
+    netstat -tulpn | grep ssh
+
+    # see my Ip
+    hostname -I
+
+    #see my cron jobs
+    crontab -l
+
+```
