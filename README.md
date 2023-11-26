@@ -54,8 +54,8 @@ after put your disk password you should see the login screen
 
 ### Mandatory part
 
-[go to mandatory](./mandatory.md)
+[go to mandatory](./guide_mandatory.md)
 
 ### Bonus part
 
-[go to bonus](./bonus.md)
+[go to bonus](./guide_bonus.md)
