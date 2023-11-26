@@ -2,6 +2,18 @@
 
 I hope if you are here you succeded in the previous step. Now we will create the partitions. I will use the bonus partition method that is Manual
 
+## Partition sizes
+
+0. Disc size: 30.8 GiB
+1. boot: 525M
+2. root: 10.7
+3. swap: 2.5G
+4. home: 5.4G
+5. var: 3.2G
+6. srv: 3.2G
+7. tmp: 3.2G
+8. var-log: 4.3G
+
 ![partition method](./imgs/02.png)
 
 1. select the disk to partition
