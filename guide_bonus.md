@@ -100,3 +100,24 @@ after that you can check if wordpress is working by going to your VM ip address 
     # edit wordpress config file
     vim wp-config.php
 ```
+
+### install and configure a service of your choice
+
+I chose to install adminer because is a lightweight alternative to phpmyadmin
+
+```bash
+    # clone adminer repository
+    git clone https://github.com/vrana/adminer.git adminer_tmp
+    # move adminer to /var/www/html
+    cd adminer_tmp && mv adminer /var/www/html
+    # change adminer owner
+    chown -R www-data:www-data /var/www/html/adminer
+    # change adminer permissions
+    chmod -R 755 /var/www/html/adminer
+    # remove adminer_tmp folder
+    cd .. && rm -rf adminer_tmp
+```
+
+after that you can check if adminer is working by going to your VM ip address in your browser (ex: http://{IP}/adminer)
+
+# IF YOU ARE HERE YOU ARE DONE WITH THE BONUS PART
